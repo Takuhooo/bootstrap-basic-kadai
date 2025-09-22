@@ -297,3 +297,25 @@ p {
     line-height: 35px;
   }
 }
+
+/* CHEF */
+.chef_bg {
+  background-color: #FFE6A5;
+}
+.chef::after {
+  content: "シェフ";
+  margin-right: 5rem;
+  margin-right: 2rem;
+  border-bottom: solid 1px #000000;
+}
+
+.chef h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.chef p {
+  font-size: 14px;
+  line-height: 2em;
+}
